@@ -83,22 +83,22 @@ a {
     DEBUG
 */
 
-.header-nav {
+.debug .header-nav {
     background-color: green;
     border: 2px dashed black;
 }
 
-.menu-nav {
+.debug .menu-nav {
     background-color: orangered;
     border: 2px dashed white;
 }
 
-.logo {
+.debug .logo {
     background-color: aqua;
     border: 2px dashed black;
 }
 
-.header-nav .menu-nav a div {
+.debug .header-nav .menu-nav a div {
     background-color: aqua;
     border: 2px dashed black;
 }

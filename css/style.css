@@ -44,24 +44,33 @@ html {
     width: calc((100% / 3) *2);
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.width-30 {
+    width: 30%;
 }
 
+.bold-text {
+    font-weight: 600;
+}
 .blue-button {
     background-color: #0061FF;
     border: 1px dashed #0061FF;
     color: white;
     display: inline;
+    width: auto;
+}
+
+.grey-text {
+    color: grey;
 }
 
 /*
     HEADER
 */
-
+header {
+    margin-bottom: 150px;
+}
 #header-top {
-    min-height: 60px;
+    min-height: 60px;   
 }
 #header-top .row {
     display: flex;
@@ -80,6 +89,8 @@ a {
     margin: 0 5px;
     padding: 5px;
     text-decoration: none;
+    text-decoration: none;
+    color: black;
 }
 
 #header-top nav .blue-button { 
@@ -88,9 +99,13 @@ a {
 }
 
 #header-bottom {
-    margin-bottom: -50px;
+    margin-bottom: 150px;
     padding-top: 50px;
     height: 450px;
+}
+
+#header-bottom #hero-section {
+    min-height: 400px;
 }
 
 #header-bottom #hero-section .row .col-1-3 {
@@ -104,6 +119,20 @@ a {
 
 #header-bottom #hero-section .row .col-2-3 img {
     width: 100%;
+}
+
+
+
+/*
+    MAIN
+*/
+
+#plans {
+    display: flex;
+}
+
+#plans > * {
+    border: 0.5px solid black;
 }
 /*
     DEBUG

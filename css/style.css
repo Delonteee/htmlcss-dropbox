@@ -80,6 +80,35 @@ html {
     color: grey;
 }
 
+.bg-color-A2D39B {
+    background-color: #A2D39B;
+}
+.bg-color-61082B {
+    background-color: #61082B;
+}
+.bg-color-0093CE {
+    background-color: #0093CE;
+}
+.bg-color-FF1C1C {
+    background-color: #FF1C1C;
+}
+.bg-color-D5001F {
+    background-color: #D5001F;
+}
+.bg-color-B4D0E7 {
+    background-color: #B4D0E7;
+}
+.bg-color-0D2481 {
+    background-color: #0D2481;
+}
+.bg-color-FFD830 {
+    background-color: #FFD830;
+}
+
+.fill-white {
+    filter: invert(95%) sepia(95%) saturate(22%) hue-rotate(178deg) brightness(105%) contrast(101%);
+}
+
 /*
     HEADER
 */
@@ -139,7 +168,6 @@ header {
 }
 
 
-
 /*
     MAIN
 */
@@ -150,6 +178,46 @@ header {
 
 #plans > * {
     border: 1px solid grey;
+}
+
+.width-60 img {
+    width: 100%;
+}
+
+
+#member-container {
+    background-color: #F5F5F5;
+    display: flex;
+}
+
+#member-container > * {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+#member-container .member-logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#member-container .member-logo > * {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#member-container .member-logo div {
+
+}
+
+#member-container .member-logo div > * {
+    width: 60%;
+}
+
+#member-container .member-logo .bg-color-A2D39B {
+    border: 10px solid #D1E9CD;  
 }
 /*
     DEBUG
